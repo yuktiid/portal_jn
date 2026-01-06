@@ -569,22 +569,22 @@
                     <div class="row col-12 col-lg-4 col-md-4">
                             <p class="ms-0 fs-15 fw-bold">sosial media</p>
                             <ul class="list-inline">
-                              <li class="list-inline-item">
+                              <li class="list-inline-item fs-13">
                                 <a href="https://instagram.com/" target="_blank" class=" text-decoration-none text-dark">
                                   <i class="ri-instagram-fill" aria-hidden="true"></i> @jurnalnusa
                                 </a>
                               </li>
-                              <li class="list-inline-item">
+                              <li class="list-inline-item fs-13">
                                 <a href="https://facebook.com/" target="_blank" class=" text-decoration-none text-dark">
                                   <i class="ri-facebook-fill" aria-hidden="true"></i> jurnalnusa
                                 </a>
                               </li>
-                              <li class="list-inline-item">
+                              <li class="list-inline-item fs-13">
                                 <a href="https://twitter.com/" target="_blank" class=" text-decoration-none text-dark">
                                   <i class="ri-twitter-fill" aria-hidden="true"></i> @jurnalnusa
                                 </a>
                               </li>
-                              <li class="list-inline-item">
+                              <li class="list-inline-item fs-13">
                                 <a href="https://www.youtube.com/=" target="_blank" class=" text-decoration-none text-dark">
                                   <i class="ri-youtube-fill" aria-hidden="true"></i> @jurnalnusa
                                 </a>
