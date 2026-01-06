@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+::-webkit-scrollbar-thumb {
+    background-color: #d38900;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #b17300;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+    background-color: #d38900;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:horizontal:hover {
+    background-color: #b17300; 
+}
+
+::-webkit-scrollbar {
+    width: 5px; 
+}
+
+::-webkit-scrollbar:horizontal {
+    height: 2px;
+}
+
+.fs-12 {
+    font-size: 12px;
+}
+
+.fs-13 {
+    font-size: 13px;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.fs-15 {
+    font-size: 15px;
+}
+
+.cb {
+    color: #000;
+}
+
+.bg-red {
+    background-color: #ff0000;
+}
+.color{
+    color:#d38900;
+}
+
+#back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    z-index: 999999;
+}
+
+body {
+    font-family: 'Poppins','Lato', sans-serif;
+    left: 0;
+}
+main {
+    background-color: rgb(253, 253, 253);
+}
+
+#header>li>a {
+    margin: 0 4px;
+    padding: 4px 15px;
+    color: #ffff;
+    font-weight: 400;
+}
+
+.container-tab {
+    width: 70%;
+}
+
+.wrapper {
+    overflow: hidden;
+}
+
+.wrapper .img {
+    width: 100%;
+    aspect-ratio: 4/3;
+    object-fit: cover;
+    transition: scale 400ms;
+    margin:0;
+    padding: 0;
+}
+
+.wrapper .img2 {
+    width: 70%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    transition: scale 400ms;
+}
+
+.bad-c {
+    font-size: 10px;
+    padding: 1px 3px;
+    background-color: #d38900;
+    color: #ffffff;
+    border-radius: 5px 0;
+}
+.tex-c {
+    font-size: 13px;
+    color: #d38900;
+}
+
+#nav-content li {
+    padding: 0 3px;
+    margin: 0 3px;
+    font-size: 14px;
+}
+
+#nav-content li .active {
+    border-bottom: 3px solid white;
+}
+
+#header-content {
+    background-color: red;
+    padding: 10px 13px;
+}
+
+.thumbnails {
+    width: 100%;
+    min-height: 80px;
+    max-height: 96px;
+    object-fit: cover;
+}
+
+.link-a {
+    text-decoration: none;
+}
+
+.link-a:hover {
+    text-decoration: none;
+}
+
+#header-content7 {
+    overflow-x: auto;
+    white-space: nowrap;
+    display: flex;
+    padding: 4px;
+}
+#header-content6 {
+    overflow-x: auto;
+    white-space: nowrap;
+    display: flex;
+    padding: 4px;
+}
+
+.as {
+    flex: 0 0 auto;
+    padding: 6px 12px;
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+}
+.as:hover {
+    flex: 0 0 auto;
+    padding: 6px 12px;
+    display: inline-block;
+    text-decoration: none;
+    color: #f4a006;
+}
+#header-content7 .active {
+    color: #f4a006;
+    border-bottom: 2px solid #f4a006;
+}
+
+#header-content6 .active {
+    border-bottom: 2px solid white;
+}
+
+ .btn-outline-cream {
+     color: #d38900;
+     border-color: #d38900;
+     background-color: transparent;
+ }
+
+ .btn-outline-cream:hover {
+     background-color: #b17300;
+     color: white;
+ }
+
+ .btn-cream {
+     color: #fff;
+     background-color: #d38900;
+     border-color: #d38900;
+ }
+
+ .btn-cream:hover {
+    color: #fff;
+     background-color: #b17300;
+     border-color: #b17300;
+ }
+
+.bg-creamX {
+    background-color: #d38900;
+    color: #ffffff;
+}
+.bg-cream {
+    background-color: #d38900;
+    color: #ffffff;
+}
+
+.bg-cream:hover {
+    background-color: #b17300;
+    color: #ffffff;
+}
+
+.category-name {
+    min-width: 150px; 
+    display: inline-block;
+  }
+.sticky-div {
+    position: sticky;
+    top: 130px; 
+    z-index: 100;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.378);
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 15%;
+}
+.carousel-caption h5{
+    font-size: 22px;
+}
+.nav-footer{
+    font-size: 14px;
+}
+.nav-footer a{
+    font-size: 14px;
+    color: #666666;
+}
+.tagsf{
+    font-size:14px;
+}
+.judul{
+        font-size: 12px;
+    }
+.tgl{
+    font-size:11px;
+}
+
+@media (max-width: 1024px) {
+    .judul{
+        font-size: 11px;
+    }
+    .tgl{
+    font-size:10px;
+    }
+    .as{
+        font-size: 12px;
+    }
+    .terbaru a{
+        font-size: 13px;
+    }
+    .terbaru p{
+        font-size: 11px;
+    }
+    .tombolload span{
+        font-size: 13px;
+    }
+    .carousel-caption h5{
+        font-size: 18px;
+    }
+    #back-to-top {
+        position: fixed;
+        bottom: 65px;
+        right: 20px;
+        display: none;
+        z-index: 999999;
+    }
+    .tagsf{
+    font-size:12px;
+    }
+  }
+@media (max-width: 767px) {
+    .judul{
+        font-size: 10px;
+    }
+    .tgl{
+    font-size:9px;
+    }
+    .as{
+        font-size: 12px;
+    }
+    .terbaru a{
+        font-size: 13px;
+    }
+    .terbaru p{
+        font-size: 11px;
+    }
+    .tombolload span{
+        font-size: 13px;
+    }
+    .carousel-caption h5{
+        font-size: 18px;
+    }
+    #back-to-top {
+        position: fixed;
+        bottom: 65px;
+        right: 20px;
+        display: none;
+        z-index: 999999;
+    }
+    .tagsf{
+    font-size:12px;
+    }
+  }
+
+@media (max-width: 480px) {
+    .judul{
+        font-size: 10px;
+    }
+    .tgl{
+    font-size:9px;
+    }
+    .carousel-caption h5 {
+        font-size: 16px;
+    }
+    #back-to-top {
+        position: fixed;
+        bottom: 65px;
+        right: 20px;
+        display: none;
+        z-index: 999999;
+    }
+    .tagsf{
+    font-size:12px;
+    }
+}

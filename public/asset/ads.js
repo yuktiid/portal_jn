@@ -1,0 +1,1 @@
+document.getElementById("close-ad-button1").addEventListener("click", function () {var stickyAd = document.getElementById("sticky-bottom-ad2");stickyAd.style.display = "none";});document.getElementById("close-button2").addEventListener("click", function () {var stickyAd = document.getElementById("sticky-bottom2");stickyAd.style.display = "none";});

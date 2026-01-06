@@ -1,0 +1,1 @@
+$(window).scroll(function () {if ($(this).scrollTop() > 100) {$("#back-to-top").fadeIn();}else{$("#back-to-top").fadeOut();}});function scrollToTop() {$("html, body").animate({scrollTop: 0,},800);return false;}

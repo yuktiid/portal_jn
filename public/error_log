@@ -1,0 +1,16 @@
+[11-Nov-2023 09:26:28 UTC] PHP Warning:  require(/home/jurn8471/public_html/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/jurn8471/public_html/public/index.php on line 34
+[11-Nov-2023 09:26:28 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/jurn8471/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/jurn8471/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/jurn8471/public_html/public/index.php on line 34
+[11-Nov-2023 09:26:32 UTC] PHP Warning:  require(/home/jurn8471/public_html/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/jurn8471/public_html/public/index.php on line 34
+[11-Nov-2023 09:26:32 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/jurn8471/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/jurn8471/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/jurn8471/public_html/public/index.php on line 34
+[11-Nov-2023 09:26:38 UTC] PHP Warning:  require(/home/jurn8471/public_html/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/jurn8471/public_html/public/index.php on line 34
+[11-Nov-2023 09:26:38 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/jurn8471/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/jurn8471/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/jurn8471/public_html/public/index.php on line 34
+[29-Jul-2024 03:59:41 UTC] PHP Fatal error:  Couldn't execute method Illuminate\Container\Container::offsetGet in Unknown on line 0
