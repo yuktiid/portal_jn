@@ -1,4 +1,4 @@
-@extends('lay.layout')
+@extends('lay.layout') 
 
 @section('title', $data->judul)
 
@@ -7,7 +7,7 @@
 @section('meta_description',$data->keterangan_foto)
 @section('meta_type', 'article')
 @section('meta_url', url()->current() )
-@section('meta_image', '{{ $imgUrl }}/posts/img/' . $data->foto)
+@section('meta_image', $imgUrl . '/posts/img/' . $data->foto)
 @section('meta_keywords')@php $tags = []; foreach ($data->Tags as $item) { $tags[] = $item->nama_tag; } $keywords = implode(',', $tags); echo trim($keywords); @endphp
 @endsection
 @section('meta_site_name', 'jurnalnusantara')
