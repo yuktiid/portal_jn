@@ -174,7 +174,7 @@
                                                     <div class="d-flex flex-column terbaru">
                                                         @foreach ($item->Kategoris as $katt)
                                                             <a href="/berita/{{ $katt->slug ?? 'umum' }}/{{ $item->slug }}"
-                                                                class="mb-2 cb link-a fs-15 fw-bold"
+                                                                class="mb-1 md:mb-2 cb link-a fs-15 fw-bold"
                                                                 title="{{ $item->judul }}">{{ $item->judul }}</a>
                                                             <div class="mt-0">
                                                                 <div class="col d-flex mb-0">
