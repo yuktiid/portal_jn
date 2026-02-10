@@ -300,7 +300,7 @@
                     <div class="col-md-4">
                         <aside class="my-3">
                             
-                            <div class="card border-0 d-none d-md-block d-lg-block bg-transparent">
+                            <div class="card border-0 d-block d-md-block d-lg-block bg-transparent">
                                 <div class="container mt-1">
                                     
                                     @if (isset($kotak) && count($kotak) > 0)
